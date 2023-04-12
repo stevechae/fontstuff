@@ -1,7 +1,6 @@
 # program that extracts ttc into ttf files using fonttools
 # usage: python ttctottf.py <ttcfile> <ttfdir>
 
-import sys
 from fontTools.ttLib import TTCollection
 import argparse
 
